@@ -25,6 +25,20 @@ A lightweight, RESTful URL shortening service API built with Node.js, Express, a
 | **NanoID** | Unique short ID generation (8 characters) |
 | **dotenv** | Environment variable management |
 
+## 📦 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/movies` | Get all movies |
+| GET | `/movies/:id` | Get movie by ID |
+| GET | `/movies/year/:year` | Get movies by release year |
+| GET | `/moviesStats` | Get total count & average rating |
+| POST | `/` | Create a new movie |
+| PATCH | `/movies/:id` | Update rating/watched status |
+| PATCH | `/movies/:id/rate` | Update only the rating |
+| DELETE | `/movies/:id` | Delete a movie |
+
+
 📡 API Endpoints
 Method	Endpoint	Description
 POST	/url	Create short URL
