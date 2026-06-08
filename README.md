@@ -29,15 +29,9 @@ A lightweight, RESTful URL shortening service API built with Node.js, Express, a
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
-| GET | `/movies` | Get all movies |
-| GET | `/movies/:id` | Get movie by ID |
-| GET | `/movies/year/:year` | Get movies by release year |
-| GET | `/moviesStats` | Get total count & average rating |
-| POST | `/` | Create a new movie |
-| PATCH | `/movies/:id` | Update rating/watched status |
-| PATCH | `/movies/:id/rate` | Update only the rating |
-| DELETE | `/movies/:id` | Delete a movie |
-
+| POST | `/url` | Create short URL |
+| GET | `/:shortId` | Redirect to original URL |
+| GET | `/url/analytics/:shortId` | Get click stats |
 
 📡 API Endpoints
 Method	Endpoint	Description
