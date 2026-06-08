@@ -33,11 +33,6 @@ A lightweight, RESTful URL shortening service API built with Node.js, Express, a
 | GET | `/:shortId` | Redirect to original URL |
 | GET | `/url/analytics/:shortId` | Get click stats |
 
-📡 API Endpoints
-Method	Endpoint	Description
-POST	/url	Create short URL
-GET	/:shortId	Redirect to original URL
-GET	/url/analytics/:shortId	Get click stats
 
 ## 📁 Project Structure
 
