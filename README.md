@@ -35,7 +35,7 @@ A lightweight, RESTful URL shortening service API built with Node.js, Express, a
 
 
 ## 📁 Project Structure
-
+```
 url-shortener-api/
 ├── controllers/
 │ └── url-controllers.js # Business logic (create URL, get analytics)
@@ -47,7 +47,7 @@ url-shortener-api/
 ├── .env # Environment variables (MongoDB URI)
 ├── package.json
 └── README.md
-
+```
 
 ## 🚀 Getting Started
 
