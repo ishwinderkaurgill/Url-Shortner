@@ -62,14 +62,27 @@ url-shortener-api/
 ### Installation
 
 #### 1. Clone the repository
+
 ```bash
 git clone https://github.com/yourusername/url-shortener-api.git
 cd url-shortener-api
 
-npm install
+# Install dependencies
+npm install mongodb nodemon express dotenv
 
-MONGO_URI=yourMongoDbConnection
+# Create environment file
+echo "MONGO_URI=your_mongodb_connection_string" > .env
+echo "PORT=5000" >> .env
 
-npm run dev
+# Start the server
+npm start
 
 ```
+
+
+## 👨‍💻 Author
+
+**Ishwinder Kaur**
+- GitHub: [@ishwinderkaurgill](https://github.com/ishwinderkaurgill)
+- LinkedIn: [ishwinder-kaur-gill-78b498232](https://linkedin.com/in/ishwinder-kaur-gill-78b498232)
+
